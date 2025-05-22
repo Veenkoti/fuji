@@ -340,7 +340,7 @@ function NorthernJournal() {
     setCurrentPrompt(randomPrompt);
     
     if (voiceEnabled) {
-      speakText(Here's a prompt for you: ${randomPrompt.text});
+      speakText(`Here's a prompt for you: ${randomPrompt.text}`);
     }
   };
 
